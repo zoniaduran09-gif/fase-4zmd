@@ -3,8 +3,13 @@
         print("4. Error:", error)
         logging.error("Error al crear sala: %s", error)
 
+
+        
+
     # Operacion 5: crear un servicio de alquiler de equipo.
     try:
+
+    
         equipo = AlquilerEquipo("S002", "Proyector multimedia", 35000)
         print("5.", sistema.crear_servicio(equipo))
     except ErrorSistema as error:
